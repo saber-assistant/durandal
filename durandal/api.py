@@ -9,7 +9,6 @@ from fastapi.security import APIKeyHeader
 from pydantic import BaseModel, Field
 
 from .queue_store import get_queue, QueueBackend
-from .utils import send_post_request
 from .conf import conf
 
 
